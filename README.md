@@ -1,0 +1,1 @@
+A Color display palette created with HTML, Flexbox and Fetch API
