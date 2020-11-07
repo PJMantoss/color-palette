@@ -16,5 +16,6 @@ function displayColors(colors){
     document.body.innerHTML = `<div class="my-colors">${myColorsHtml}</div>`;
 }
 
+//Set the count to 100 colors, update the .my-color class to maintain the grid structure
 let colorCount = 100;
 getColors(colorCount);
