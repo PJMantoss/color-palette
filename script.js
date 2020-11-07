@@ -17,5 +17,6 @@ function displayColors(colors){
 }
 
 //Set the count to 100 colors, update the .my-color class to maintain the grid structure
+//Create a variable to store the count of colors to be loaded
 let colorCount = 100;
 getColors(colorCount);
