@@ -10,10 +10,10 @@ async function getColors(colorCount){
 
 function displayColors(colors){
     let myColorsHtml = colors.map(color => {
-        `<div class="my-color" style="background: ${color.value}"></div>`
+        return `<div class="my-color" style="background: ${color.value}"></div>`;
     }).join('');
 
-    document.body.innerHTML = `<div></div>`
+    document.body.innerHTML = `<div class="my-colors">${myColorsHtml}</div>`;
 }
 
 let colorCount = 100;
